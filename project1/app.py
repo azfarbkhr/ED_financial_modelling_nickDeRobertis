@@ -5,6 +5,7 @@ import matplotlib.ticker as ticker
 
 st.set_page_config(layout="wide")
 
+
 confirm_button = st.sidebar.button("Calculate")
 starting_salary = st.sidebar.slider('Starting Salary', value=60000, min_value=0, max_value=1000000, step=1000)
 promos_every_n_years = st.sidebar.number_input('Promos Every N Years', value=5)
